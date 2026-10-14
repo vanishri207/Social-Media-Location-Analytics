@@ -50,14 +50,13 @@ The dataset contains social media post information based on different locations.
 
 ## ⚙️ 6. Methodology
 
-1. **Data Import:** The social media dataset was imported from an Excel file into Power BI.
-2. **Data Preparation:** The data was loaded into Power BI and the data types of the columns were checked.
-3. **KPI Creation:** Card visuals were created to display Total Posts, Total Likes, Total Comments, and Total Shares.
-4. **Geographical Analysis:** A map visual was created to display social media engagement across different cities. Hover over a particular city bubble to see the engagement of that city.
-5. **Comparative Analysis:** Bar charts were created to compare total engagement by city and likes by city.
-6. **Platform Analysis:** A column chart was created to compare the number of posts across platforms.
-7. **Interactive Filtering:** City and Platform slicers were added to allow users to filter the dashboard.
-8. **Dashboard Design:** The visuals were arranged on a single dashboard page and formatted with suitable titles, headings, and colours.
+1. **Data Import:** Imported the Excel dataset into Power BI.
+2. **Data Preparation:** Reviewed and prepared the dataset for analysis.
+3. **KPI Creation:** Created cards for total posts, likes, comments, and shares.
+4. **Data Visualization:** Used maps and charts for city-wise and platform-wise analysis.
+5. **Interactive Filtering:** Added City and Platform slicers.
+6. **Dashboard Design:** Arranged all visuals into a single interactive dashboard.
+
 
 ## 📈 7. Dashboard Visualizations
 
