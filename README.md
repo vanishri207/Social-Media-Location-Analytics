@@ -178,6 +178,7 @@ SIES College of Arts, Science & Commerce
 
 ⭐ Thank you for visiting my project repository!
 
-🌟 **Feedback & Support**
+🌟 Feedback & Support
 
-Feel free to share suggestions and feedback. If you found this project useful, please consider giving the repository a star.
+Feel free to share suggestions or compliments — your feedback is appreciated!
+If you found this project useful, please consider giving it a ⭐️.
