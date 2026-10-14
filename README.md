@@ -62,7 +62,9 @@ The dataset contains social media post information based on different locations.
 ## 📈 7. Dashboard Visualizations
 
 ### 📊 7.1 KPI Cards
+
 ![KPI Cards](./screenshots/kpi-cards.png)
+
 Four card visuals provide a quick summary of the dataset:
 
 - **Total Posts:** 20
@@ -73,25 +75,33 @@ Four card visuals provide a quick summary of the dataset:
 
 
 ### 🌍 7.2 Engagement by Location
+
 ![Engagement Map](./screenshots/engagement-map.png)
+
 A map visual shows social media engagement across different cities. Hover over a city bubble to view location-based engagement information.
 
 
 
 ### 📍 7.3 Total Engagement by City
+
 ![Engagement by City](./screenshots/engagement-by-city.png)  
+
 A bar chart compares the overall engagement of different cities and helps identify differences in engagement levels between locations.
 
 
 
 ### ❤️ 7.4 Likes by City
+
 ![Likes by City](./screenshots/likes-by-city.png)
+
 A bar chart compares the number of likes received by posts from different cities.
 
 
 
 ### 📱 7.5 Posts by Platform
+
 ![Posts by Platform](./screenshots/posts-by-platform.png)
+
 A column chart compares the number of posts from Instagram, Facebook, and YouTube.
 
 
@@ -109,6 +119,7 @@ City and Platform slicers make the dashboard interactive. For example, selecting
 
 
 ### 🖥️ Complete Dashboard
+
 ![Complete Dashboard](./screenshots/dashboard.png)
 
 
@@ -167,6 +178,7 @@ The use of map visualization and slicers makes the analysis easier to explore. O
 ## 👩‍💻 About Me
 
 **Vanishri Suresh**
+
 B.Sc. Data Science
 SIES College of Arts, Science & Commerce
 
