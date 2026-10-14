@@ -157,12 +157,6 @@ The use of map visualization and slicers makes the analysis easier to explore. O
 - Use advanced Power BI features such as drill-through pages and detailed tooltips.
 - Connect the dashboard to regularly updated data for continuous analysis.
 
-## 📚 13. References
-
-1. **Project Dataset:** `Location_Analytics.xlsx` — the dataset used for the Social Media Location Analytics dashboard.
-2. **Microsoft Power BI:** [Official Power BI Website](https://www.microsoft.com/en-us/power-platform/products/power-bi).
-3. **Microsoft Learn:** [Power BI Documentation](https://learn.microsoft.com/en-us/power-bi/).
-
 ## 📁 14. Project Files
 
 - `Powerbi_project.pbix` — Power BI dashboard file.
