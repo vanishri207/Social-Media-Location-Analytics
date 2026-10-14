@@ -1,101 +1,172 @@
-# Social Media Location Analytics Dashboard
+# Social Media Location Analytics Dashboard (Power BI)
 
-An interactive **Power BI** dashboard for exploring social media post activity and engagement across cities and platforms.
+This project presents an interactive Power BI dashboard built to analyze social media posts and engagement across different cities and platforms. It combines KPI cards, a geographical map, city-wise comparisons, platform analysis, and interactive slicers to make the data easier to explore.
 
-## Dashboard Preview
+---
 
-![Full Social Media Location Analytics dashboard](screenshots/dashboard.png)
+## Objectives
 
-## Project Overview
+- Analyze social media posts across different cities and countries.
+- Compare likes, comments, and shares across locations.
+- Identify differences in overall engagement between cities.
+- Compare the number of posts across social media platforms.
+- Build an interactive Power BI dashboard using City and Platform slicers.
+- Present location-based engagement through a map visualization.
 
-The project analyzes social media engagement geographically and by platform. It brings together headline KPIs, a map, city-level comparisons, platform post counts, and slicers in one report page.
+---
 
-## Dashboard Elements
+## Data Preparation
 
-### 1. KPI Cards — Headline Metrics
+### Data Import
+
+- Imported the social media dataset from `Location_Analytics.xlsx` into Microsoft Power BI Desktop.
+
+### Data Preparation
+
+- Loaded the dataset into Power BI.
+- Checked the data types of the columns before creating visuals.
+- Used the available fields: `Post ID`, `City`, `Country`, `Platform`, `Likes`, `Comments`, and `Shares`.
+
+### KPI Creation
+
+Created card visuals for the following summary metrics:
+
+- Total Posts
+- Total Likes
+- Total Comments
+- Total Shares
+
+---
+
+## Dashboard Overview
+
+The dashboard brings together summary KPIs, geographical analysis, city-wise comparisons, platform analysis, and interactive filters on a single page.
+
+![Social Media Location Analytics Dashboard](screenshots/dashboard.png)
+
+### KPIs
+
+The dashboard displays the following headline metrics:
+
+- **Total Posts:** 20
+- **Total Likes:** 21K
+- **Total Comments:** 2K
+- **Total Shares:** 1K
 
 ![KPI cards](screenshots/kpi-cards.png)
 
-The four cards provide a quick summary of the dataset:
+### Charts and Visuals
 
-- **Total Posts: 20** — number of posts represented.
-- **Total Likes: 21K** — total likes.
-- **Total Comments: 2K** — total comments.
-- **Total Shares: 1K** — total shares.
+1. **Map — Engagement by Location:** Displays social media engagement across cities. Hover over a city bubble to view location-based engagement information.
 
-### 2. Engagement by Location — Map
+   ![Engagement by location map](screenshots/engagement-map.png)
 
-![Engagement by location map](screenshots/engagement-map.png)
+2. **Bar Chart — Total Engagement by City:** Compares overall engagement across cities.
 
-The map places engagement data geographically, helping viewers see how activity is distributed across locations. The map includes bubbles at locations shown in the report.
+   ![Total engagement by city](screenshots/engagement-by-city.png)
 
-### 3. Total Engagement by City — Bar Chart
+3. **Bar Chart — Likes by City:** Compares likes associated with posts from different cities.
 
-![Total engagement by city](screenshots/engagement-by-city.png)
+   ![Likes by city](screenshots/likes-by-city.png)
 
-This horizontal bar chart compares total engagement across cities, making it easier to compare the relative engagement levels of locations such as Mumbai, Bengaluru, Delhi, and Pune.
+4. **Column Chart — Posts by Platform:** Compares the number of posts from Instagram, Facebook, and YouTube.
 
-### 4. Likes by City — Bar Chart
+   ![Posts by platform](screenshots/posts-by-platform.png)
 
-![Likes by city](screenshots/likes-by-city.png)
+### Slicers / Interactive Filters
 
-This chart focuses specifically on likes by city. It complements the overall engagement chart by showing one engagement metric separately.
+The dashboard includes interactive slicers that allow users to filter the analysis:
 
-### 5. Posts by Platform — Column Chart
+- **City slicer:** Filters the visuals to a selected city.
 
-![Posts by platform](screenshots/posts-by-platform.png)
+  ![City slicer](screenshots/city-slicer.png)
 
-The column chart compares post counts for Instagram, Facebook, and YouTube. In the displayed report, Instagram has the highest post count among the three platforms.
+- **Platform slicer:** Filters the visuals to a selected social media platform.
 
-### 6. City Slicer
+  ![Platform slicer](screenshots/platform-slicer.png)
 
-![City slicer](screenshots/city-slicer.png)
+---
 
-The city buttons let viewers filter the report to a selected city, so the visual comparisons can be explored for a particular location.
+## Dashboard Features
 
-### 7. Platform Slicer
+- KPI cards for total posts, likes, comments, and shares.
+- A map visual for geographical engagement analysis.
+- Bar charts for total engagement and likes by city.
+- A column chart for post counts by platform.
+- Interactive City and Platform slicers.
+- A single-page layout for an overall view of the dataset.
 
-![Platform slicer](screenshots/platform-slicer.png)
+---
 
-The platform buttons let viewers filter the report by Facebook, Instagram, or YouTube.
+## Key Insights
 
-## Key Observations
+- Social media engagement varies across the cities in the dataset.
+- Mumbai and Bengaluru show relatively high overall engagement in the documented analysis.
+- Instagram has the highest number of posts among the platforms shown.
+- The map provides a geographical view of engagement, while the bar charts support city-to-city comparisons.
+- City and Platform slicers let users explore selected parts of the dataset.
 
-- Engagement levels differ by city in the displayed report.
-- Mumbai and Bengaluru appear among the higher-engagement cities in the total engagement comparison.
-- Instagram has the highest post count in the platform chart.
-- The map gives a geographic view, while the bar charts support direct city comparisons.
-- City and platform slicers provide interactive filtering.
-
-## Tools and Visual Elements
-
-- **Microsoft Power BI Desktop** — dashboard development.
-- **Microsoft Excel** — source dataset.
-- **KPI cards** — total posts, likes, comments, and shares.
-- **Map visual** — geographic distribution of engagement.
-- **Horizontal bar charts** — total engagement and likes by city.
-- **Column chart** — posts by platform.
-- **Slicers** — city and platform filters.
-
-## Dataset Fields
-
-The project documentation identifies these fields: `Post ID`, `City`, `Country`, `Platform`, `Likes`, `Comments`, and `Shares`.
-
-## How to Use
-
-1. Download `Powerbi_project.pbix` from this repository and open it in Power BI Desktop.
-2. If prompted, confirm or update the data source connection to the included Excel file.
-3. Use the **City** and **Platform** slicers to filter the visuals.
-4. Hover over map points or chart marks to inspect the details available in the report.
+---
 
 ## Conclusion
 
-This dashboard combines location-based and platform-based views of social media activity in a single interactive report. KPI cards summarize the overall totals, the map adds geographic context, and the charts and slicers support comparisons across cities and platforms.
+The Social Media Location Analytics dashboard demonstrates how Microsoft Power BI can be used to analyze social media engagement across geographical locations and platforms. By combining KPI cards, a map, comparison charts, and interactive slicers, the dashboard turns the dataset into a clear visual summary and allows users to explore city- and platform-level patterns.
 
-## Future Enhancements
+---
 
-- Add a date field to analyze engagement trends over time.
-- Expand the dataset with more posts and platforms.
-- Explore sentiment analysis if suitable text data becomes available.
-- Add drill-through pages and richer tooltips.
-- Connect to a regularly refreshed data source.
+## How to Use
+
+1. Download or clone this repository.
+2. Open `Powerbi_project.pbix` in Microsoft Power BI Desktop.
+3. If Power BI asks for the dataset location, connect the report to `Location_Analytics.xlsx` and refresh the data.
+4. Use the City and Platform slicers to filter the visuals.
+5. Hover over map bubbles and chart elements to inspect the available details.
+
+---
+
+## Project Structure
+
+```text
+Social-Media-Location-Analytics/
+├── README.md
+├── Powerbi_project.pbix
+├── Location_Analytics.xlsx
+└── screenshots/
+    ├── dashboard.png
+    ├── kpi-cards.png
+    ├── engagement-map.png
+    ├── engagement-by-city.png
+    ├── likes-by-city.png
+    ├── posts-by-platform.png
+    ├── city-slicer.png
+    └── platform-slicer.png
+```
+
+---
+
+## Tools Used
+
+- **Microsoft Power BI Desktop** — dashboard development and data visualization.
+- **Microsoft Excel** — source dataset.
+- **Map visualization** — geographical engagement analysis.
+- **Card visuals** — summary KPIs.
+- **Bar and column charts** — city and platform comparisons.
+- **Slicers** — interactive filtering.
+
+---
+
+## Author
+
+**Vanishri Suresh**  
+TY B.Sc. Data Science, SIES College of Arts, Science & Commerce  
+Roll No.: TDS2627059
+
+- **LinkedIn:** [Vanishri Suresh](https://www.linkedin.com/in/vanishri-suresh-0a18a4357)
+- **GitHub:** [vanishri207](https://github.com/vanishri207)
+- **Email:** vanishrisuresh20@gmail.com
+
+---
+
+## Feedback & Support
+
+Suggestions and feedback are welcome. If you find this project useful, consider giving the repository a star.
