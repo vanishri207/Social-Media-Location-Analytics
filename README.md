@@ -111,10 +111,12 @@ A column chart compares the number of posts from Instagram, Facebook, and YouTub
 City and Platform slicers make the dashboard interactive. For example, selecting Mumbai in the City slicer filters the dashboard to show the analysis for Mumbai. The same method can be used for other cities and platforms.
 
 **City Slicer**
+
 ![City Slicer](./screenshots/city-slicer.png)
 
 
 **Platform Slicer**
+
 ![Platform Slicer](./screenshots/platform-slicer.png)
 
 
@@ -180,6 +182,7 @@ The use of map visualization and slicers makes the analysis easier to explore. O
 **Vanishri Suresh**
 
 B.Sc. Data Science
+
 SIES College of Arts, Science & Commerce
 
 - **LinkedIn:** [Vanishri Suresh](https://www.linkedin.com/in/vanishri-suresh-0a18a4357)
