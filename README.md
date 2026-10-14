@@ -100,7 +100,7 @@ Social-Media-Location-Analytics/
 
 **Vanishri Suresh**  
 TY B.Sc. Data Science, SIES College of Arts, Science & Commerce  
-Roll No.: TDS2627059
+
 
 - **LinkedIn:** [Vanishri Suresh](https://www.linkedin.com/in/vanishri-suresh-0a18a4357)
 - **GitHub:** [vanishri207](https://github.com/vanishri207)
